@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.location{
+    color: aliceblue;
+    margin-left: 10px;
+}
+
+.logo{
+    background-image:  url("satwick2.png");
+    height: 50px;
+width: 100px;
+border: 2px solid transparent;
+}
+.nav-logo{
+height: 50px;
+width: 100px;
+}
+
+.border:hover{
+    border: 3px solid orange;
+}
+
+/* location font changes */
+.loc-first{
+    color: #cccccc;
+    font-size: 0.75rem;
+    margin-bottom: 2px;
+}
+.loc-second{
+    color: white;
+    font-size: 1rem;
+}
+.icon{
+    display: flex;
+}
+
+/* Box 3 Search Bar */
+.search-select{
+    width: 50px;
+    margin-left: 10px;
+    height: 35px;
+    border-radius: 5px;
+}
+.searchbar{
+    width:100%;
+    margin-left: 0px;
+    height: 35px;
+    border-radius: 5px;
+
+}
+.searchicon{
+    color: black;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.nav-searchbar{
+    display: flex;
+    align-items: center;
+    background-color: orange;
+    width: 600px;
+}
+.search-select:hover{
+    background-color: #e8e8e8
+}
+.searchicon:hover{
+    color: whitesmoke;
+}
+.nav-signin{
+ color: #cccccc;
+}
+.firstsign{
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+.secondsign{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.nav-return{
+    color: #cccccc;
+}
+.return{
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+.orders{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.nav-cart{
+    color: #cccccc;
+    font-size: 0.90rem;
+    font-weight: 700;
+}
+.nav-cart i {
+    font-size: 20px;
+}
+
+/* PANNEL */
+.pannel {
+    height: 40px;
+    background-color: #222f3d;
+    color: #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.deals-pannel {
+    font-size: 0.95rem;
+    font-weight: 700;
+
+}
+
+.panel-options {
+    display: inline; 
+    width: 70%;
+    display: inline-flex;
+    color: #cccccc;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin: 15px;
+}
+
+/* Hero Section */
+.hero-section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+
+.hero-msg{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    color: #0f1111;
+    height: 40px;
+    font-size: 0.85rem;
+    margin: 200px auto 25px auto;
+}
+.hero-msg a{
+    color: #007185;
+}
+
+/* Shop Section */
+.boc{
+    border: #007185 2px solid;
+    height: 300px;
+    width: 20%;
+    background-color: #cfd9db;
+    margin: 15px;
+    padding: 20px 10px 15px ;
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to left, #324065,#b9ced1)
+}
+
+.boximage{
+    background-size: cover;
+    height: 250px;
+    width: 90%;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+     
+}
+.box-content{
+    margin: auto 1rem auto 2rem;
+}
+.box-content p {
+    margin-top: 0px;
+    color: #007185;
+}
+
+.edit{
+    margin-top: 0%;
+    background-size: cover;
+}
+
+/* FOOTER */
+footer{
+    margin-top: 16px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: whitesmoke;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    
+}
+.panel2{
+    margin-top: 0px;
+    background-color: #222f3d;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #dddddd;
+    font-size: 1rem;
+    padding: 30px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+.panel3{
+    background-color: #222f3d;
+    color: #dddddd;
+    height: 77px;
+    border-top: 0.5px solid whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Edit{
+    width: 90px;
+}
+.panel4{
+    background-color: #0f1111;
+    color: whitesmoke;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
